@@ -15,6 +15,7 @@ public class Question11 {
 
 	        System.out.println("Sum of digits: " + sum);
 	        sc.close();
+	        
 	    }
 	}
 
