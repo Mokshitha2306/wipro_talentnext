@@ -8,7 +8,9 @@ public class Question5 {
 		    }
 
 		    public static boolean lastDigit(int a, int b) {
-		        return (a % 10) == (b % 10);
+		       if(a%10==b%10) {
+		    	   return true;
 		    }
+		       return false;
 		}
 	}
